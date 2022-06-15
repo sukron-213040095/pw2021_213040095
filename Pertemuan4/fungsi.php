@@ -1,6 +1,12 @@
-<?php 
+<?php
 
 /*
-    Pertemuan 4
-    Fungsi PHP
+    strlen
 */
+
+function salam($waktu = "Datang", $nama = "Admin")
+{
+    return "Selamat $waktu $nama";
+}
+
+echo salam("Pagi", "Sukron");
